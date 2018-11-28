@@ -64,7 +64,7 @@ database.ref("/info").on("child_added", function (childsnapshot) {
         minsAway: tMinutesTillTrain
     };
 
-    var newEntryObjString = JSON.stringify(newEntryObj);
+    // var newEntryObjString = JSON.stringify(newEntryObj);
     // console.log(newEntryObj);
     // console.log(newEntryObjString);
 
